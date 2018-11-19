@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Initial development by Andrew Ohakam '20-->
+<!-- enclosed is the source code for the HOMEPAGE for ASA's website-->
+<html>
+	<head>
+		<!--TAB TITLE-->
+		<title>RPI's African Student Association!</title>
+		<link rel="stylesheet" href = "index.css">
+		<!-- used to bring in the Reem Kufi font-->
+		<link href="https://fonts.googleapis.com/css?family=Dosis|Reem+Kufi" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/window_icon.png">
+	</head>
+	<body>
+		<!-- Basic Heading-->
+		<h1 class = "PageTitle">RPI African Student Association</h1>
+		
+		<!-- Navigation Bar -->
+		<nav>
+			<ul class = "navbar">
+				<li><a class = "home" href = "index.html"><img src = "img/index/ASA.png" width = "120px" height = "56px"></a></li>
+				<li><a class = "announce button" href = "announcements.html">Announcements</a></li>
+				<li><a class = "eboard button" href = "eboard.html">Our E-Board Members</a></li>
+				<li style="float:right" ><a class = "about button" href = "about.html">About Us</a></li>
+			</ul>
+		</nav>
+		<div class = "sec">
+			<div class= "gallery" >
+				<img align = "middle" class="mySlides" src="img/index/slide1.PNG" alt = "Slide 1 img" style="width:100%">
+				<img align = "middle" class="mySlides" src="img/index/slide2.PNG" alt = "Slide 2 img" style="width:100%">
+				<img align = "middle" class="mySlides" src="img/index/slide3.PNG" alt = "Slide 3 img" style="width:100%">
+				<img align = "middle" class="mySlides" src="img/index/slide5.PNG" alt = "Slide 5 img" style="width:100%">
+				<img align = "middle" class="mySlides" src="img/index/slide6.PNG" alt = "Slide 6 img" style="width:100%">
+				<img align = "middle" class="mySlides" src="img/index/slide7.PNG" alt = "Slide 7 img" style="width:100%">
+				<img align = "middle" class="mySlides" src="img/index/slide8.PNG" alt = "Slide 8 img" style="width:100%">
+			</div>
+		</div>
+		
+		<!--Random Quote from African leader. Should be changed every
+		few weeks/months and include an informational link to the quoter-->
+		<div class = "quote"><i> The forces that unite us are intrinsic and greater than the superimposed influences that keep us apart.</i><br> - <a href = "https://aaregistry.org/story/kwame-nkrumah-fathered-pan-africanism/" style="color:white" target = "_blank">Kwame Nkrumah, Ghanaian politician</a></div>
+		<hr>
+		
+		<!-- STUFF ABOUT MEETINGS -->
+		<h2 class = "Meetings heading"><u>Meetings</u></h2>
+		<p class = "Meeting Info">General Board Meetings (GBMs) are held bi-weekly on Wednesdays in <span style = "color: rgb(0, 200, 0)"><b><u>Union 3202</u></b></span>.<br></p>
+		
+		<!-- Social Media Links (make sure they open in new tabs via target = "_blank") -->
+		<h2 class = "Contact Us heading"><u>Check Us Out</u></h2>
+		<p class = "Contact Info">To see what we've been up to, check our social media handles!<br> 
+		<a href = "https://www.facebook.com/asarpi17/?ref=br_rs" target = "_blank"><img src = "img/index/fblogo.png" alt = "Facebook Logo img" width = "55px" height = "55px"></a>
+		<a href = "https://twitter.com/rpi_asa?lang=en" target = "_blank"><img src = "img/index/twitterlogo.png" alt = "Twitter Logo img"width = "55px" height = "55px"></a>
+		<a href = "https://www.instagram.com/rpiasa/" target = "_blank"><img src = "img/index/IGLogo.png" alt = "Instagram Logo img"width = "55px" height = "55px"></a>
+		</p>
+		<hr>
+		<footer>
+			<p>~ Established 1993 ~</p>
+			<p>~ Copyright of The African Student Association at Rensselaer Polytechnic Institute 2018 ~</p>
+		</footer>
+		<!-- some JavaScript code for the photos to move automatically (don't change unless you know what you're
+		doing)-->
+		<script>
+			var myIndex = 0;
+			infinite_rotation();
+			function infinite_rotation() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+						 x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(infinite_rotation, 3500); // Change image every 3.5 seconds
+			}
+		</script>
+	</body>
+</html>

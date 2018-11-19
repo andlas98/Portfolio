@@ -1,0 +1,45 @@
+h2 {
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px rgb(0, 150, 0);
+	font-family: Reem Kufi, Imprint MT Shadow, Bell MT, Georgia, Serif;
+}
+
+.ebox {
+	border-style: inset;
+}
+.ebox p, h2{
+	margin-left: 100px;
+}
+.ebox p{
+	font-family: Lato;
+	font-size: 120%;
+}
+.ebox:hover{
+	background-color: rgba(100, 100, 100, 0.55);
+	text-shadow:2px 2px 5px rgb(60, 60, 60);
+}
+.ebPosition {
+	text-decoration: underline;
+}
+.box{
+	/* background-color: rgba(100, 100, 100, 0.3); */
+	border-style: inset;
+	border-color: yellow;
+	border-radius: 5px;
+	font-family: Bitter;
+	padding: 50px;
+}
+td img{
+	margin-left: 10px;
+	border-style: inset;
+}
+/* as one hovers over the .box representing an ebroad member, the .boxs background should change a bit.*/
+.box:hover{
+	background-color: rgba(100, 100, 100, 0.3);
+	text-shadow:2px 2px 5px rgb(60, 60, 60);
+}
+
+.description{
+	margin-left: 500px;
+	font-size: 120%;
+}
