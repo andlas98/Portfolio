@@ -1,0 +1,10 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+    text-align: center;
+    font-family: Arvo, Wingdings;
+    font-size: 90px;
+    text-shadow: 2px 2px 2px grey;
+}
