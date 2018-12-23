@@ -1,10 +1,19 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arvo, 'Times New Roman', Times, serif;
 }
 
 .heading {
     text-align: center;
-    font-family: Arvo, Wingdings;
+    font-family: Roboto, Wingdings;
     font-size: 90px;
     text-shadow: 2px 2px 2px grey;
+}
+a {
+    color: rgb(0,207,33);
+}
+.card-title{
+    color: rgb(255,57,57);
+}
+.card-img-top{
+    height: 5.5cm;
 }
