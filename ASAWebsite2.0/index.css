@@ -8,6 +8,19 @@ body {
     font-size: 90px;
     text-shadow: 2px 2px 2px grey;
 }
+
+.heading:hover:after{
+    content: 'RPI\'s African Student Association';
+    font-size: 60px;
+    visibility: visible;
+    color: rgb(0,207,33);
+}
+.pushdown{
+    
+}
+.pushup{
+    
+}
 a {
     color: rgb(0,207,33);
 }
@@ -15,5 +28,5 @@ a {
     color: rgb(255,57,57);
 }
 .card-img-top{
-    height: 5.5cm;
+    display: flex;
 }
