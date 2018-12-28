@@ -5,78 +5,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">  
         <title>RPI's ASA - Home</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     </head>
     <body>
-        <b><hr class="pushdown" style="width: 6cm;"></b>
-        <div class="heading shift" title="RPI's African Student Association";>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand text-light">RPI's African Student Association</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="announcements.html">Announcements</a>
+                    <a class="nav-item nav-link" href="#">Current Executive Board</a>
+                    <a class="nav-item nav-link" href="#">About Us</a>
+                </div>
+            </div>
+        </nav>
+        <b><hr style="width: 6cm;"></b>
+        <div class="heading" title="RPI's African Student Association";>
             <p>
                 <span style="color: rgb(255,57,57)">A</span>
                 <span style="color: rgb(253,236,57)">S</span>
                 <span style="color: rgb(0,207,33)">A</span>
             </p>
         </div>
-        <hr class="pushup" style="width: 6cm;">
+        <hr style="width: 6cm;">
 
-        <!--The three center cards-->
-        <!--
-        <div class="container" id = "menu-options">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card" style="width:20rem;">
-                        <img class="card-img-top" src="img/index/meet.PNG" alt="general-meetings">
-                        <div class="card-body">
-                            <h5 class="card-title" align="middle">Meetings</h5>
-                            <p class="card-text" align="middle">General Body Meetings (GBMs) are held bi-weekly on Wednesdays, usually in the Union's <b>Shelnutt Gallery (Room 3606)</b>. Check the <a href="#">Announcements</a> tab to stay up to date with any room changes.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width:20rem;">
-                        <img class="card-img-top" src="img/index/kwame.jpg" alt="general-meetings">
-                        <div class="card-body">
-                            <h5 class="card-title" align="middle">Quote of the Month</h5>
-                            <p class="card-text" align="middle"><i> The forces that unite us are intrinsic and greater than the superimposed influences that keep us apart.</i><br> - <a href = "https://aaregistry.org/story/kwame-nkrumah-fathered-pan-africanism/" target = "_blank">Kwame Nkrumah</a>, Ghanaian politician</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card"style="width:20rem;">
-                        <img class="card-img-top" src="img/index/check.JPG" alt="general-meetings">
-                        <div class="card-body">
-                            <h5 class="card-title" align="middle">Check Us Out</h5>
-                            <p class="card-text" align="middle">To see what we've been up to, check our social media handles and the <a href="#">Announcements</a> page of this site!</p>
-                            <img src="img/index/fblogo.png" alt="fb" style="height:64px; width:64px">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
         <div class="card-deck">
-            <div class="card">
+            <div class="card border-dark">
                 <img class="card-img-top" src="img/index/meet.PNG" alt="general-meetings">
                 <div class="card-body">
                     <h5 class="card-title" align="middle">Meetings</h5>
-                    <p class="card-text" align="middle">General Body Meetings (GBMs) are held bi-weekly on Wednesdays, usually in the Union's <b>Shelnutt Gallery (Room 3606)</b>. Check the <a href="#">Announcements</a> tab to stay up to date with any room changes.</p>
+                    <p class="card-text" align="middle">General Body Meetings are held bi-weekly on Wednesdays, in the <b>Shelnutt Gallery (Union 3606)</b>. Check the <a href="#">Announcements</a> tab to stay up to date with any room changes.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card border-dark">
                 <img class="card-img-top" src="img/index/kwame.jpg" alt="general-meetings">
                 <div class="card-body">
                     <h5 class="card-title" align="middle">Quote of the Month</h5>
-                    <p class="card-text" align="middle"><i> The forces that unite us are intrinsic and greater than the superimposed influences that keep us apart.</i><br> - <a href = "https://aaregistry.org/story/kwame-nkrumah-fathered-pan-africanism/" target = "_blank">Kwame Nkrumah</a>, Ghanaian politician</p>
+                    <p class="card-text" align="middle"><i> The forces that unite us are intrinsic and greater than the superimposed influences that keep us apart.</i><br> 
+                    <footer>
+                        <p><b><a href = "https://aaregistry.org/story/kwame-nkrumah-fathered-pan-africanism/" target = "_blank">Kwame Nkrumah</a>, Ghanaian politician</b></p>
+                    </footer><!--<b><a href = "https://aaregistry.org/story/kwame-nkrumah-fathered-pan-africanism/" target = "_blank">Kwame Nkrumah</a>, Ghanaian politician</b>--></p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card border-dark">
                 <img class="card-img-top" src="img/index/check.JPG" alt="general-meetings">
                 <div class="card-body">
                     <h5 class="card-title" align="middle">Check Us Out</h5>
                     <p class="card-text" align="middle">To see what we've been up to, check our social media handles and the <a href="#">Announcements</a> page of this site!</p>
                     <a href="https://www.facebook.com/asarpi17/"><img src="img/index/fblogo.png" alt="fb" style="height:64px; width:64px" ></a>
+                    <a href="https://www.facebook.com/asarpi17/"><img src="img/index/iglogo.png" alt="ig" align="right" style="height:64px; width:64px" ></a>
                 </div>
             </div>
         </div>

@@ -5,28 +5,25 @@ body {
 .heading {
     text-align: center;
     font-family: Roboto, Wingdings;
-    font-size: 90px;
+    font-size: 4em;
     text-shadow: 2px 2px 2px grey;
 }
 
-.heading:hover:after{
-    content: 'RPI\'s African Student Association';
-    font-size: 60px;
-    visibility: visible;
-    color: rgb(0,207,33);
-}
-.pushdown{
-    
-}
-.pushup{
-    
-}
 a {
-    color: rgb(0,207,33);
+    color: rgb(2, 179, 31);
 }
 .card-title{
-    color: rgb(255,57,57);
+    color: gray;
 }
 .card-img-top{
-    display: flex;
+    size: 80%;
+}
+.entrytitle{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arvo;
+}
+.entry{
+    font-family: Georgia;
+    text-align: center;
 }
