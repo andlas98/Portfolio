@@ -14,10 +14,18 @@ a {
 }
 .card-title{
     color: gray;
+    text-align: center;
 }
 .card-img-top{
     size: 80%;
 }
+.card{
+    box-shadow: 2px 4px 5px grey;
+}
+.card-body{
+    text-align: center;
+}
+/*announcements.html exclusive code*/
 .entrytitle{
     text-align: center;
     text-decoration: underline;
