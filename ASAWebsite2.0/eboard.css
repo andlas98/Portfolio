@@ -4,3 +4,9 @@
     font-size: 4em;
     text-shadow: 2px 2px 2px grey;
 }
+body{
+    font-family: Arvo, Lato, Georgia;
+}
+div .info{
+    margin-right: 500px;
+}
