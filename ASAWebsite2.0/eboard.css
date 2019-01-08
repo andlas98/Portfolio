@@ -7,6 +7,9 @@
 body{
     font-family: Arvo, Lato, Georgia;
 }
-div .info{
-    margin-right: 500px;
+div div.info{
+    margin-left: 300px; 
+}
+.list-group{
+    margin-left: 50px;
 }

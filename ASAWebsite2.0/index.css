@@ -29,9 +29,10 @@ a {
 .entrytitle{
     text-align: center;
     text-decoration: underline;
-    font-family: Arvo;
+    font-family: Roboto;
 }
 .entry{
-    font-family: Georgia;
+    font-family: Arvo;
     text-align: center;
+    line-height: 1.5;
 }
