@@ -1,7 +1,9 @@
 body {
     font-family: Arvo, 'Times New Roman', Times, serif;
 }
-
+.navbar{
+	font-family: Arvo, Lato, sans-serif;
+}
 .heading {
     text-align: center;
     font-family: Roboto, Wingdings;
@@ -25,14 +27,26 @@ a {
 .card-body{
     text-align: center;
 }
+/*about.html exclusive code*/
+.about-text{
+    text-align: left;
+    line-height: 1cm;
+    text-indent:40px;
+}
 /*announcements.html exclusive code*/
+div .announcement:hover{
+   background-color: rgba(200, 200, 200, 0.55);
+}
 .entrytitle{
     text-align: center;
     text-decoration: underline;
     font-family: Roboto;
 }
-.entry{
-    font-family: Arvo;
-    text-align: center;
-    line-height: 1.5;
+div div.announcement .entry{
+    font-family: Lato;
+    text-align: left;
+    line-height: 1cm;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
 }
