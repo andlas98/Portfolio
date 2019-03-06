@@ -4,7 +4,7 @@
 .heading {
     text-align: center;
     font-family: Roboto, Wingdings;
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 2px 2px 2px grey;
 }
 h2 {
@@ -15,6 +15,7 @@ h2 {
 
 .ebox {
 	border-style: inset;
+	padding: 20px;
 }
 .ebox p, h2{
 	margin-left: 100px;
