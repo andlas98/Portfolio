@@ -10,7 +10,6 @@ body {
     font-size: 3em;
     text-shadow: 2px 2px 2px grey;
 }
-
 a {
     color: rgb(2, 179, 31);
 }
@@ -27,13 +26,28 @@ a {
 .card-body{
     text-align: center;
 }
+/*-----------------------------------------------------*/
 /*about.html exclusive code*/
+/*-----------------------------------------------------*/
+.abimage{
+    border-radius: 15px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.abquote{
+    text-align: center;
+    color: rgb(94, 94, 94);
+    border: 1px solid rgba(200, 200, 200, 0.55);
+}
 .about-text{
     text-align: left;
     line-height: 1cm;
     text-indent:40px;
 }
+/*-----------------------------------------------------*/
 /*announcements.html exclusive code*/
+/*-----------------------------------------------------*/
 div .announcement:hover{
    background-color: rgba(200, 200, 200, 0.55);
 }
