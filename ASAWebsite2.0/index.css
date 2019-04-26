@@ -13,7 +13,7 @@ body {
 a {
     color: rgb(2, 179, 31);
 }
-.card-title{
+.ctitle{
     color: gray;
     text-align: center;
 }
@@ -38,7 +38,6 @@ a {
 .abquote{
     text-align: center;
     color: rgb(94, 94, 94);
-    border: 1px solid rgba(200, 200, 200, 0.55);
 }
 .about-text{
     text-align: left;

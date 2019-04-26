@@ -13,23 +13,11 @@ h2 {
 	font-family: Reem Kufi, Imprint MT Shadow, Bell MT, 'Lato', Serif;
 }
 
-.ebox {
-	border-style: inset;
-	padding: 20px;
-}
-.ebox p, h2{
-	margin-left: 100px;
-}
-.ebox p{
-	font-family: Lato;
-	font-size: 120%;
+div.edescription {
+	text-align: left;
+	padding: 35px;
+	line-height: 1.0cm;
 }
 .ebox:hover{
 	background-color: rgba(200, 200, 200, 0.55);
-}
-.ebPosition {
-	text-decoration: underline;
-}
-td img{
-	margin-left: 10px;
 }
